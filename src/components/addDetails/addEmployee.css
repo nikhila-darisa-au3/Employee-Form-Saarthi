@@ -1,0 +1,135 @@
+.addDetails{
+    width: 60px;
+    border-radius: 50%;
+    height: 60px;
+    font-size: 26px;
+}
+.textColor{
+    position: fixed;
+    bottom: 100px;
+    right: 100px;
+    border-color: #773709;
+    background-color: #773709;
+    color: white;
+    border:#773709
+}
+.changeText{
+    width: 145px;
+    border-radius: 40%;
+    height: 55px;
+    font-size: 18px;
+    border-radius: 30px;
+}
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+  }
+  
+  .modal-section {
+    position:fixed;
+    background: white;
+    width: 50%;
+    height: auto;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+  }
+  
+  .display-block {
+    display: block;
+  }
+  
+  .display-none {
+    display: none;
+  }
+  .submitButton{
+    width: 85px;
+    height: 40px;
+    background-color: #773709;
+    color: white;
+    font-weight: 600;
+    border: #773709;
+    border-radius: 10px;
+    margin-left: 4px
+  }
+.header-data{
+    height:40px;
+    background-color: #1a8484
+}
+.closeButton{
+    margin-top: 8px;
+    background-color: #773709;
+    color: white;
+    font-weight: bold;
+    border: #773709;
+    position: absolute;
+    right: 12px;
+}
+table{
+  max-width: 820px;
+  margin: 0px auto;
+  text-align: center;
+  margin-top:30px
+}
+table,th,td{
+  border:1px solid black;
+  border-collapse: collapse
+}
+th,td{
+  width:120px;
+  height:40px;
+}
+
+.tableDiv {
+  height: 100px;
+}
+
+.tableDiv thead th {
+  position: sticky;
+  top: 0;
+}
+.deleteData{
+  color: white;
+  width: 70px;
+  background-color: red;
+  border: 1px solid red;
+  border-radius: 4px;
+  height: 32px;
+  font-weight: bold;
+}
+.form{
+  margin:50px
+}
+.input{
+  width:60%;
+  border: 2px solid #6d6262;
+  border-radius: 4px;
+  outline: none;
+  padding: 10px;
+  margin-bottom: 10px
+}
+.error{
+  color:red;
+  font-size: 12px;
+  font-weight: bold;
+}
+@media only screen and (max-width: 460px) {
+  .input{
+    width:86%
+  }
+}
+ @media only screen and (max-width: 460px) {
+    .modal-section {
+      width:96%!important;
+    }
+  }
+
+  @media only screen and (min-width:769){
+    .modal-section{
+        width: 96% !important;
+    }
+  }

@@ -1,3 +1,3 @@
-npm install in client folder
+Do npm install 
 
 Run project using npm start.
